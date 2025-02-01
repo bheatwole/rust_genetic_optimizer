@@ -1,0 +1,12 @@
+[package]
+name = "rust_genetic_optimizer"
+version = "0.1.0"
+edition = "2021"
+
+[features]
+multi-threaded = []
+async = []
+
+[dependencies]
+rand = { version = "0.9", features = ["small_rng"] }
+thiserror = "2.0"
